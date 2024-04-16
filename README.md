@@ -43,7 +43,7 @@ create the script by typing nano .termux/tasker/adb.sh
 
 paste the following script into nano
 
-# !/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 host="$1"
 adb=$PREFIX/bin/adb
 
@@ -64,7 +64,7 @@ create the script by typing nano .termux/tasker/adb_pair.sh
 
 paste the following script into nano
 
-# !/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 host="$1"
 code="$2"
 adb=$PREFIX/bin/adb
